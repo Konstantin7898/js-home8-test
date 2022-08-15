@@ -5,7 +5,7 @@
   "homepage": "https://Konstantin7898.github.io/js-home8-test",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/index/*.html --public-url /js-home8-test/"
+    "build": "parcel build src/index.html --public-url /js-home8-test/"
   },
   "repository": {
     "type": "git",
