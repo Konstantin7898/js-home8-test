@@ -19,9 +19,9 @@ formEl.addEventListener('input', throttle(onFormInput, 500));
 
 function onFormSubmit(e) {
   e.preventDefault();
-  console.log(formData);
-  localStorage.removeItem('feedback-form-state');
 
+  localStorage.removeItem('feedback-form-state');
+  console.log(formData);
   e.target.reset();
 }
 
