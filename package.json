@@ -4,18 +4,18 @@
   "description": "",
   "homepage": "https://Konstantin7898.github.io/js-home8-test",
   "scripts": {
-    "start": "parcel ./src/html/*.html",
-    "build": "parcel build ./src/html/*.html --public-url /js-home8-test"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/index/*.html --public-url /js-home8-test/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://Konstantin7898.github.io/js-home8-test.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://Konstantin7898.github.io/js-home8-test/issues"
   },
   "dependencies": {
     "@vimeo/player": "^2.17.1",
