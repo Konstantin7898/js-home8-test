@@ -23,6 +23,7 @@ function onFormSubmit(e) {
   localStorage.removeItem('feedback-form-state');
   console.log(formData);
   e.target.reset();
+  formData = {};
 }
 
 function onFormInput(e) {
